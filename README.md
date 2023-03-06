@@ -72,7 +72,27 @@ ___
 
 * open graph 태그를 이용한 링크 미리보기 설정 
 
+<br>
+
 ___ 
+
+### 오류해결
+
+1.
+오류 : Uncaught Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: boolean.
+원인 : 로딩페이지 컴포넌트가 improt 되지않아 발생
+해결 : 로딩페이지 import 함.
+
+<br>
+
+2.
+오류 : uncaught typeerror: cannot read properties of undefined (reading 'id')
+원인 : 작성한 일기들을 다 삭제한 후 새로고침하면 로컬스토리지의 배열이 비워지며 빈배열 인덱스에 접근할 수 없어 오류가 남
+해결 : 조건문을 통해 배열의 길이가 1이상일때만 수행될 수 있도록 함.
+
+<br>
+
+___
 
 
 
