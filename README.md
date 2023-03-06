@@ -68,5 +68,13 @@ ___
 
 ___
 
+<img src='https://github.com/dmswnlee/Daily_Diary/blob/master/dd_img/07.PNG?raw=truee' alt='open graph' />
+
+* open graph 태그를 이용한 링크 미리보기 설정 
+
+___ 
+
+
+
 
 
